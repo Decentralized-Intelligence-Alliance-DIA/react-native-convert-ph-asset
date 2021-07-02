@@ -53,10 +53,10 @@ RNConvertPhAsset.convertVideoFromUrl({
 
 | Props        	| Type          	| Default | Notes  |
 | ------------- 	|:-------------:	| :------:|:-----|
-| url      		| String 			| | Video asset |
-| id      		| String 			| | The id of the video asset | 
-| convertTo      | String 	     	| |Can be mpeg4, m4v or mov |
-| quality 		| String      	| original |Can be original, high, medium, low |
+| url      		| String 			| | Video or photo asset |
+| id      		| String 			| | The id of video or photo asset | 
+| convertTo      | String 	     	| |Can be mpeg4, m4v, mov or jpeg |
+| quality 		| String      	| original |Can be original, high, medium, low for video |
 
 ##### Response
 ```javascript
